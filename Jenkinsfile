@@ -4,10 +4,7 @@ pipeline {
         label "master"
     }
 
-    tools {
-        // Note: this should match with the tool name configured in your jenkins instance (JENKINS_URL/configureTools/)
-        MAVEN_HOME "maven-3.6.3"
-    }
+   
 
     environment {
         // This can be nexus3 or nexus2
